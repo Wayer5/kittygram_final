@@ -4,7 +4,7 @@ WORKDIR /app
 
 # COPY /requirements/requirements.prod.txt .
 
-# RUN pip install gunicorn==20.1.0 
+RUN pip install gunicorn==20.1.0 
 
 COPY requirements.txt .
 
